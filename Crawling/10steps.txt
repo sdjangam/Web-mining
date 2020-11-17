@@ -1,0 +1,70 @@
+Nutch Tutorial on Ubuntu (10 easy steps)
+Follow these 10 steps to setup Nutch & crawl your site to create your own Web DB
+
+Step 1:
+Download latest binaries from here:
+http://www.apache.org/dyn/closer.cgi/nutch/
+
+Step 2:
+Make required directories
+sudo mkdir /usr/local/nutch
+sudo mkdir /usr/local/nutch/framework
+sudo mkdir /usr/local/nutch/dist
+
+Step 3:
+Copy to dist
+sudo cp apache-nutch-1.4-bin.tar.gz /usr/local/nutch/dist/
+
+Step 4:
+Unpack
+sudo tar -xvzf apache-nutch-1.4-bin.tar.gz -C /usr/local/nutch/framework/
+
+Step 5:
+Make executable
+sudo chmod +x /usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/bin/nutch
+
+Step 6:
+Make seed url file
+sudo mkdir -p /usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/bin/urls
+sudo gedit /usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/bin/urls/nutch
+
+Add following to nutch.txt
+http://www.usc.edu/
+
+Step 7:
+Add Agent
+sudo gedit /usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/conf/nutch-site.xml
+
+Add this in Configuration
+<property>
+<name>http.agent.name</name>
+<value>My Spider</value>
+</property>
+
+Step 8:
+Edit regex
+sudo gedit /usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/conf/regex-urlfilter.txt
+
+Replace
+
+# accept anything else
++.
+
+By this
+# accept anything else
+#+.
+
+Then add
++^http://([a-z0-9]*\.)* www.usc.edu/
+
+Step 9:
+Setup JDK & set JAVA_HOME
+sudo add-apt-repository ppa:ferramroberto/java
+sudo apt-get update
+sudo apt-get install sun-java6-jdk
+sudo apt-get install sun-java6-jdk sun-java6-jre sun-java6-plugin sun-java6-fonts
+export JAVA_HOME=/usr
+
+Step 10:
+Start Crawling!
+/usr/local/nutch/framework/apache-nutch-1.4-bin/runtime/local/bin/nutch crawl urls -dir crawl -depth 10 -topN 1000
