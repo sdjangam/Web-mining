@@ -9,6 +9,11 @@ The course will take the participants through understanding of the basic informa
 
 
 
+![image](https://user-images.githubusercontent.com/67232573/114186497-cb4d8300-98fb-11eb-944d-626bca18705d.png)
+
+
+
+
 # Text indexing
 
 Term-Document Incidence Matrices
@@ -59,6 +64,11 @@ QueryParsers and Scoring in Lucene
 
 
 
+![image](https://user-images.githubusercontent.com/67232573/114186658-f7690400-98fb-11eb-973c-3c26120f5506.png)
+
+
+
+
 # Crawling
 
 Basics of Crawling
@@ -98,6 +108,14 @@ Python code: TFIDF computation using SKLearn
 
 Python code: TFIDF computation using gensim
 
+
+
+![image](https://user-images.githubusercontent.com/67232573/114186720-0cde2e00-98fc-11eb-9d9d-af2c4da28b25.png)
+
+
+
+
+
 # Link analysis algorithms
 
 Link-based Ranking of Web Pages
@@ -121,6 +139,15 @@ TrustRank to Handle Link Spam
 Python code: PageRank and HITS using networkx
 
 Python code: PageRank from Scratch
+
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114186838-2c755680-98fc-11eb-977a-0fc1d3626977.png)
+
+
+
+
 
 # Recommendation Systems
 
@@ -173,6 +200,14 @@ Python Code: Comparison across multiple types of recommenders
 Python Code: Obtaining recommendations for a person
 
 
+
+
+![image](https://user-images.githubusercontent.com/67232573/114186940-4747cb00-98fc-11eb-97cf-f67cee1230de.png)
+
+
+
+
+
 # Social Network Analysis
 
 Introduction to Social Network Analysis
@@ -203,6 +238,14 @@ Python code: Computing Structural Properties using Snap
 
 Python code: Plot graphs and their degree distributions
 
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187062-70685b80-98fc-11eb-96a7-5ccec86eccdd.png)
+
+
+
+
 # Social Influence Analysis
 
 What is Social Influence?
@@ -232,6 +275,12 @@ Applications of Social Influence Analysis
 Python Code: Independent Cascade Model on Facebook Social Circles Dataset
 
 Python Code: Influence maximization heuristics on wiki-Vote data
+
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187171-8c6bfd00-98fc-11eb-88e6-e07bb6112796.png)
+
 
 
 
@@ -272,6 +321,13 @@ Python Code: Lexical analysis of tweets
 Python Code: Analysis of retweets
 
 
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187296-ac9bbc00-98fc-11eb-90fb-401462dc3f60.png)
+
+
+
+
 # Mining Structured Information from the Web
 
 Introduction to Information Extraction
@@ -300,6 +356,15 @@ Python Code: Scraping weather forecasts using BeautifulSoup
 
 Python Code: Scraping apartment information using beautiful soup from apartments.com
 OpenIE and Tagme
+
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187405-cb9a4e00-98fc-11eb-9a01-6330ce0dd147.png)
+
+
+
+
 
 # Computational Advertizing
 
@@ -343,6 +408,15 @@ Python Code: Developing Logistic Regression Prediction model for Ad CTR Predicti
 
 Python Code: Developing Gradient Boosting Prediction Models for Ad CTR Prediction
 
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187484-e79def80-98fc-11eb-847c-6df9fbad200a.png)
+
+
+
+
+
 # Crowdsourcing
 
 Introduction to Crowdsourcing
@@ -374,6 +448,16 @@ Tips for Iterative HitApp Design
 Introduction to the Amazon Mechanical Turk Platform
 
 An Example of a crowdsourcing project using Mechanical Turk
+
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187561-fe444680-98fc-11eb-98cc-ea3a1f0804a7.png)
+
+
+
+
+
 
 # Entity Resolution in the Web of Data
 
@@ -408,3 +492,12 @@ Python Code: Data deduplication using recordlinkage Python package
 Python Code: Classification Algorithms for Record Linkage
 
 Using the dedupe package in Python
+
+
+
+
+![image](https://user-images.githubusercontent.com/67232573/114187668-1b791500-98fd-11eb-8475-93851ba897ce.png)
+
+
+
+
