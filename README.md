@@ -44,7 +44,7 @@ Dictionary Compression using blocking and front coding
 
 Dictionary Compression using BTrees and Tries
 
-Postings Compression by coding gaps
+Postings Compression by coding gap
 
 Variable Length Encoding for Postings Compression
 
