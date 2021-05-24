@@ -5,7 +5,7 @@
 
 Web Mining deals with analytics on web-related data. How do search engines return relevant results so quickly for various queries? How do these search engines work? How does Amazon recommend products to its users? How are social networks formed and how do they grow? How do people influence each other on social networks? How do search engines make money through ads? How can you use the wisdom of the crowds to generate useful and credible information?
 
-The course will take the participants through understanding of the basic information retrieval concepts, web mining concepts, the architecture of search engines, and applications. This module aims to provide a conceptual and practical understanding of various aspects of web mining starting with the basics of web search to discussions about recent topics studied in the World Wide Web community. Topics covered will include: crawling, indexing, ranking, analysis of social networks, recommendation systems, and basics of computational advertising.
+The course will takes the participants through understanding of the basic information retrieval concepts, web mining concepts, the architecture of search engines, and applications. This module aims to provide a conceptual and practical understanding of various aspects of web mining starting with the basics of web search to discussions about recent topics studied in the World Wide Web community. Topics covered will include: crawling, indexing, ranking, analysis of social networks, recommendation systems, and basics of computational advertising.
 
 
 
